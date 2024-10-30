@@ -99,24 +99,7 @@ The figure below, shows part of the simulation for the SPWR. One can see that th
   
 How to run:
 -----------------------------
-to train the model you need to specify three things:
-  1- gpu_number, to specify the gpu to train on (used for training several experiements on the server. You can choose it to be always 0)
-  2- algorithm_number [0=AN(2), 1=AN(1), 2=AN(0),3=Q-routing]
-  3- network_name [0="5x6 network",2="toronto"]
-To run the code :
+Soon!
   
-```
-  python run_exp.py gpu_number algorithm_number network_name
-  
-```
-  For example, to run Adaptive Navigation with 2 layers on toronto network, run:
 
-```
-  python run_exp.py 0 0 2 
-```
-  
- Refrence:
- -------------------------------
- Accepted in SIGSPATIAL 2022: [https://sigspatial2022.sigspatial.org/accepted-papers/](https://sigspatial2022.sigspatial.org/accepted-papers/): Network-aware Multi-agent Reinforcement Learning for the Vehicle Navigation Problem
-Fazel Arasteh, Soroush Sheikh Gargar, and Manos Papagelis
 
